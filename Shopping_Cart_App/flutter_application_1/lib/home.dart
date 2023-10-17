@@ -10,10 +10,6 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class CustomColors {
-  static const Color myCustomColor = Color.fromARGB(255, 46, 6, 58);
-}
-
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
@@ -29,7 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
             fontSize: 27,
           ),
         ),
-        backgroundColor: CustomColors.myCustomColor,
+        backgroundColor: Colors.blue,
         actions: const [
           Icon(Icons.search),
           SizedBox(width: 25),
@@ -85,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   label:
                       const Text('View Cart', style: TextStyle(fontSize: 14)),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: CustomColors.myCustomColor,
+                    backgroundColor: Colors.green,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),

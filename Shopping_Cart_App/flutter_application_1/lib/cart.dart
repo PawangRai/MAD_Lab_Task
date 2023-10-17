@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopping_cart/provider.dart';
 
-class CustomColors {
-  static const Color myCustomColor = Color.fromARGB(255, 46, 6, 58);
-}
-
 class Cart extends StatelessWidget {
   const Cart({super.key});
 
@@ -22,7 +18,7 @@ class Cart extends StatelessWidget {
             fontSize: 27,
           ),
         ),
-        backgroundColor: CustomColors.myCustomColor,
+        backgroundColor: Colors.blue,
         actions: const [
           Icon(Icons.search),
           SizedBox(width: 25),

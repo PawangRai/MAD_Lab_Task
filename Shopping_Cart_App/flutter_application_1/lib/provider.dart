@@ -6,9 +6,9 @@ class CartProvider extends ChangeNotifier {
   List<Product> get cartlist => cartItems;
 
   final List<Product> items = [
-    Product(id: 1, name: 'Product 1', price: 10.0, quantity: 2),
-    Product(id: 2, name: 'Product 2', price: 15.0, quantity: 2),
-    Product(id: 2, name: 'Product 3', price: 20.0, quantity: 2),
+    Product(id: 1, name: 'Laptop', price: 100.0, quantity: 2),
+    Product(id: 2, name: 'Keyboard', price: 30.0, quantity: 2),
+    Product(id: 2, name: 'Computer', price: 150.0, quantity: 2),
   ];
 
   List<Product> get itemslist => items;

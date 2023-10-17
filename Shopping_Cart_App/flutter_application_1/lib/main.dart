@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Shopping Cart App', home: MyHomePage());
+    return const MaterialApp(title: 'Shopping Cart App', home: MyHomePage());
   }
 }
